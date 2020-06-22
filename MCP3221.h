@@ -130,7 +130,7 @@ __asm volatile ("nop");
 #define MCP3221_h
 
 #if !defined(ARDUINO_ARCH_AVR)
-#error “The MCP3221 library only supports AVR processors.”
+#warning “The MCP3221 library only supports AVR processors.”
 #endif
 
 #include <Arduino.h>
